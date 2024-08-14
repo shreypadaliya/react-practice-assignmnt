@@ -33,12 +33,12 @@ const WhyUs = () => {
       >
         <Container maxWidth="lg">
           <Grid container spacing={4} alignItems="center">
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={7.5}>
               <Box>
-                <Typography sx={{ color: '#6D95FC', mb: 2, fontWeight: 400, fontSize: "21px", lineHeight: "31.5px" }}>
+                <Typography sx={{ color: '#6D95FC', mb: 1, fontWeight: 400, fontSize: "21px", lineHeight: "31.5px" }}>
                   WHY US?
                 </Typography>
-                <Box my="20px" sx={{backgroundColor:"#6D95FC",width:"97.5px",height:"3px"}}></Box>
+                <Box  sx={{backgroundColor:"#6D95FC",width:"97.5px",height:"3px",marginBottom:"24.56px",}}></Box>
                 <Typography
                   sx={{
                     fontWeight: 700,
@@ -54,8 +54,10 @@ const WhyUs = () => {
                   variant="outlined"
                   sx={{
                     color: 'white',
+                    width:"175px",
                     borderColor: '#6D95FC',
                     padding: '10px 25px',
+                    border: "2px solid #6D95FC",
                     transition: 'transform 0.3s ease, background-color 0.3s ease',
                     "&:hover": {
             transform: 'scale(1.1)',
@@ -67,14 +69,14 @@ const WhyUs = () => {
                 </Button>
               </Box>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={4.5}>
               <Box>
-                <Typography sx={{ color: 'white', mb: 3, fontSize: "21px", fontWeight: 300, lineHeight: "34.36px" }}>
-                  Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet, 
-                  Neque porro elit NeDeque porro Lorem ipsum
+                <Typography sx={{ color: 'white', fontSize: "21px", fontWeight: 300, lineHeight: "34.36px",marginBottom:"32px" }}>
+                  porro ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet, 
+                  Neque porro elit porro NeDeque porro Lorem ipsum
                 </Typography>
                 <Box>
-                  <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+                  <Box sx={{ display: 'flex', alignItems: 'center', mb: '6px' }}>
                     <Box
                       component="img"
                       src={CheckIconImage}
@@ -85,7 +87,7 @@ const WhyUs = () => {
                       Happy Customer
                     </Typography>
                   </Box>
-                  <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+                  <Box sx={{ display: 'flex', alignItems: 'center', mb: '6px' }}>
                     <Box
                       component="img"
                       src={CheckIconImage}
@@ -96,7 +98,7 @@ const WhyUs = () => {
                       Experienced Team
                     </Typography>
                   </Box>
-                  <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+                  <Box sx={{ display: 'flex', alignItems: 'center',mb: '6px' }}>
                     <Box
                       component="img"
                       src={CheckIconImage}

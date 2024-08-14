@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { Box, Container, IconButton, Drawer, List, ListItem, ListItemText } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import logo from "../data/LOGO (1).png";
-// import magnify from "../data/magnify.png"
+import logo from "../data/Creatic.png";
 import SearchIcon from '@mui/icons-material/Search';
 
 function Navbar() {
@@ -23,47 +22,47 @@ function Navbar() {
           alignItems: "center",
         }}
       >
-        <Box>
-          <img src={logo} style={{ width: "244px", height: "92px" }} alt="Logo" />
+        <Box sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",paddingTop:"32px",}}>
+          <Box><img src={logo} style={{ width: "222px", height: "66px" }} alt="Logo" /></Box>
+          <Box sx={{color:"white",fontSize:"14px",lineHeight:"21px",fontWeight:400,}}>CREATIVE AGENCY</Box>
         </Box>
         <Box
           sx={{
-            fontSize: "21px",
+            fontSize: { xs: "21px", sm: "21px",md:"12px",lg:"21px" }, 
             lineHeight: "31.5px",
             fontWeight: 500,
             color: "#FFFFFF",
             display: { xs: "none", sm: "none",md:"flex" }, 
             alignItems: "center",
-            gap: "17px",
+            gap: { xs: "21px", sm: "21px",md:"3px",lg:"17px" },
             maxWidth: "939px",
             height: "72px",
-            fontFamily:"Poppins"
+            
           }}
         >
-          <Box sx={{ padding: "10px 18px 10px 18px","&:hover": {
-                borderBottom: "2px solid #6D95FC",
-              }, }}>Home</Box>
-          <Box sx={{ padding: "10px 18px 10px 18px","&:hover": {
-                borderBottom: "2px solid #6D95FC",
-              }, }}>About Us</Box>
-          <Box sx={{ padding: "10px 18px 10px 18px","&:hover": {
-                borderBottom: "2px solid #6D95FC",
-              }, }}>Services</Box>
-          <Box sx={{ padding: "10px 18px 10px 18px","&:hover": {
-                borderBottom: "2px solid #6D95FC",
-              }, }}>Portfolio</Box>
-          <Box sx={{ padding: "10px 18px 10px 18px","&:hover": {
-                borderBottom: "2px solid #6D95FC",
-              }, }}>Pages</Box>
-          <Box sx={{ padding: "10px 18px 10px 18px","&:hover": {
-                borderBottom: "2px solid #6D95FC",
-              }, }}>Contact Us</Box>
-          <Box sx={{ padding: "10px 18px 10px 18px",display:"flex",justifyContent:"center",alignItems:"center","&:hover": {
-                borderBottom: "2px solid #6D95FC",
+          <a href="#home" style={{ textDecoration:"none",color:"white",padding: "10px 10px 10px 10px","&:hover": {
+                color: "#6D95FC",
+              }, }}>Home</a>
+          <a href="#aboutus" style={{ textDecoration:"none",color:"white",padding: "10px 18px 10px 18px","&:hover": {
+                color: "#6D95FC",
+              }, }}>About Us</a>
+          <a href="#service" style={{textDecoration:"none",color:"white", padding: "10px 18px 10px 18px","&:hover": {
+                color: "#6D95FC",
+              }, }}>Services</a>
+          <a href="#portfolio" style={{textDecoration:"none",color:"white", padding: "10px 18px 10px 18px","&:hover": {
+                color: "#6D95FC",
+              }, }}>Portfolio</a>
+          <a href="#pages" style={{textDecoration:"none",color:"white", padding: "10px 18px 10px 18px","&:hover": {
+                color: "#6D95FC",
+              }, }}>Pages</a>
+          <a href="#contactus" style={{textDecoration:"none",color:"white", padding: "10px 18px 10px 18px","&:hover": {
+               color: "#6D95FC",
+              }, }}>Contact Us</a>
+          <a href="home" style={{textDecoration:"none",color:"white", padding: "10px 18px 10px 18px",display:"flex",justifyContent:"center",alignItems:"center","&:hover": {
+                color: "#6D95FC",
               }, }}>
-            {/* <img src={magnify} style={{ width: "24px", height: "24px" }} alt="Search" /> */}
             <SearchIcon style={{ width: "24px", height: "24px", color: "#6D95FC", }} />
-          </Box>
+          </a>
         </Box>
         <IconButton
           color="inherit"

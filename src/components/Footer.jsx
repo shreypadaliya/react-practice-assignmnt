@@ -6,7 +6,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import logo from "../data/LOGO (1).png";
+import logo from "../data/Creatic.png";
 
 const Footer = () => {
   return (
@@ -17,16 +17,18 @@ const Footer = () => {
         color: '#fff',
         py: 4,
         textAlign: 'center',
-        fontFamily:"Poppins"
+        
 
       }}
     >
       <Container maxWidth="lg">
-        <Box sx={{ mb: 3 }}>
-            <img src={logo} alt="" style={{width:"244px",height:"94px"}} />
+        <Box sx={{ mb: 0 ,display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
+            <img src={logo} alt="" style={{width:"301px",height:"66px"}} />
+            <Box sx={{color:"white",fontSize:"14px",lineHeight:"21px",fontWeight:400,paddingTop:"9px"}}>CREATIVE AGENCY</Box>
+            <Box sx={{ backgroundColor: "white", width: "97.5px", height: "2px",justifyContent:"center",marginTop:"19px"}}></Box>
         </Box>
-
-        <Box sx={{ mb: 3, display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
+        
+        <Box sx={{ mb: 0, display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
           {['Categories', 'About', 'Services', 'Portfolio', 'Pages', 'Support'].map((item) => (
             <Link
               key={item}
@@ -75,8 +77,8 @@ const Footer = () => {
           </Link>
         </Box>
 
-        <Box paddingTop="180px" paddingBottom="77px">
-          <Typography variant="caption">
+        <Box  sx={{paddingTop:{xs:"30px",sm:"50px",md:"100px",lg:"180px"},paddingBottom:{xs:"15px",sm:"25px",md:"45px",lg:"77px"}}}>
+          <Typography sx={{fontWeight:300,fontSize:"14px"}}>
             Copyright © 2023-2023 Creatic Agency All Rights Reserved
           </Typography>
         </Box>

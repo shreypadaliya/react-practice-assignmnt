@@ -56,12 +56,12 @@ const StatItem = ({ icon, value, label }) => {
   }, [value]);
 
   return (
-    <Box ref={ref} textAlign="center" sx={{paddingTop:"83px",paddingBottom:"65px",fontFamily:"Poppins"}}>
+    <Box ref={ref} textAlign="center" sx={{paddingTop:"83px",paddingBottom:"65px"}}>
       {icon}
       <Typography component="div" fontWeight="700" sx={{fontSize:"64px", color:"white"}}>
         {count}+
       </Typography>
-      <Typography color="primary" sx={{fontSize:"21px",lineHeight:"25.73px",fontFamily:"Poppins"}} fontWeight="400">
+      <Typography color="primary" sx={{fontSize:"21px",lineHeight:"25.73px"}} fontWeight="400">
         {label}
       </Typography>
     </Box>
@@ -71,11 +71,12 @@ const StatItem = ({ icon, value, label }) => {
 const Users = () => {
   return (
     <ThemeProvider theme={theme}>
+      <div id='portfolio'>
       <Box
         sx={{
           background: 'linear-gradient(45deg, black 30%, #16213e 90%)',
-          padding: '2rem 0',
           width: '100%',
+          
         }}
       >
         <Container maxWidth="lg">
@@ -111,6 +112,7 @@ const Users = () => {
           </Grid>
         </Container>
       </Box>
+      </div>
     </ThemeProvider>
   );
 };

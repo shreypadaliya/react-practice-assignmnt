@@ -26,7 +26,8 @@ function App() {
       <Whyus />
       <Testimonial />
       <GetInTouch />
-      <Footer />
+      <Footer/>
+
     </>
   );
 }

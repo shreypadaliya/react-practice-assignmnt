@@ -43,12 +43,12 @@ const Testimonial = () => {
                 lineHeight: 1.2,
                 color: "white",
                 mb: 1,
-                fontFamily:"Poppins",
+                
                 paddingTop:{xs:"30px",sm:"30px",md:"0px"}
               }}
             >
               WHAT{" "}
-              <span style={{ color: "#6D95FC",fontFamily:"Poppins" }}>
+              <span style={{ color: "#6D95FC",}}>
                 OUR
               </span>
             </Typography>
@@ -58,7 +58,7 @@ const Testimonial = () => {
                 fontWeight: 700,
                 lineHeight: 1.2,
                 mb: 2,
-                fontFamily:"Poppins"
+                
               }}
             >
               CLIENTS SAY?
@@ -69,7 +69,7 @@ const Testimonial = () => {
                 fontWeight: 400,
                 lineHeight: 1.5,
                 mb: 4,
-                fontFamily:"Poppins"
+                
               }}
             >
               TESTIMONIALS
