@@ -23,7 +23,7 @@ const Footer = () => {
     >
       <Container maxWidth="lg">
         <Box sx={{ mb: 0 ,display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
-            <img src={logo} alt="" style={{width:"301px",height:"66px"}} />
+        <Box sx={{color:"#6D95FC",fontSize:"50px",lineHeight:"55px",fontWeight:600,}}>CREATIC</Box>
             <Box sx={{color:"white",fontSize:"14px",lineHeight:"21px",fontWeight:400,paddingTop:"9px"}}>CREATIVE AGENCY</Box>
             <Box sx={{ backgroundColor: "white", width: "97.5px", height: "2px",justifyContent:"center",marginTop:"19px"}}></Box>
         </Box>

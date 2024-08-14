@@ -44,7 +44,7 @@ const ImageCarousel = () => {
           </Box>
         </Box>
         <Box sx={{ alignSelf: "flex-start", paddingTop: "16px" }}>
-          <img src={coomas} alt="Quote" style={{ height: "20px", width: "48px" }} />
+          <img src={coomas} alt="Quote" style={{ height: "32px", width: "30px" }} />
         </Box>
       </Box>
     </Box>

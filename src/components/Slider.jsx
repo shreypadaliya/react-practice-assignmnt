@@ -11,7 +11,7 @@ const settings = {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "60px",
+    // centerPadding: "60px",
     slidesToShow: 3,
     speed: 500,
     dots: true, 
@@ -20,7 +20,7 @@ const settings = {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" >
       <Slider {...settings}>
         <Box >
           <img src={sliderpic} alt="Slider 1" style={{ width: "100%", height: "auto" }} />

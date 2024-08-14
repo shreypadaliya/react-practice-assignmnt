@@ -35,7 +35,7 @@ const WhyUs = () => {
           <Grid container spacing={4} alignItems="center">
             <Grid item xs={12} md={7.5}>
               <Box>
-                <Typography sx={{ color: '#6D95FC', mb: 1, fontWeight: 400, fontSize: "21px", lineHeight: "31.5px" }}>
+                <Typography sx={{ color: 'white', mb: 1, fontWeight: 400, fontSize: "21px", lineHeight: "31.5px" }}>
                   WHY US?
                 </Typography>
                 <Box  sx={{backgroundColor:"#6D95FC",width:"97.5px",height:"3px",marginBottom:"24.56px",}}></Box>
