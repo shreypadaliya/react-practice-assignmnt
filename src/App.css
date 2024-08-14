@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.slick-slide > div {
+  margin: 0px 10px;
+}
+.slick-track > {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.slick-dots  > div {
+  font-family: 'slick';
+  font-size: 26px;
+  line-height: 20px;
+  position: absolute;
+  top: 10;
+  left: 10;
+  width: 30px;
+  height: 30px;
+  content: '•';
+  text-align: center;
+  opacity:2;
+  color: white;
+  -webkit-font-smoothing: antialiased;}
