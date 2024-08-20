@@ -27,7 +27,7 @@ function Aboutus() {
       <div id='aboutus'>
       <Box sx={{ 
         paddingTop:"178px",
-        paddingBottom:"90px", 
+        paddingBottom:"170px", 
         display: 'flex', 
         alignItems: 'center', 
         background: 'linear-gradient(300deg, black 60%, #16213e 99%)',

@@ -27,10 +27,11 @@ function ServicesSection() {
         py: { xs: 5, md: 9 },
         border: "1px solid black",
         
+        
       }}
     >
-      <Container maxWidth="lg">
-        <Grid container spacing={5} alignItems="center">
+      <Container maxWidth="lg" sx={{paddingBottom:"145px",}}>
+        <Grid container spacing={5} alignItems="center" >
           <Grid item xs={12} md={6}>
             <Typography
               color="#6D95FC"

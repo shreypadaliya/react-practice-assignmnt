@@ -33,7 +33,7 @@ const WhyUs = () => {
       >
         <Container maxWidth="lg">
           <Grid container spacing={4} alignItems="center">
-            <Grid item xs={12} md={7.5}>
+            <Grid item xs={12} md={7}>
               <Box>
                 <Typography sx={{ color: 'white', mb: 1, fontWeight: 400, fontSize: "21px", lineHeight: "31.5px" }}>
                   WHY US?
@@ -69,7 +69,7 @@ const WhyUs = () => {
                 </Button>
               </Box>
             </Grid>
-            <Grid item xs={12} md={4.5}>
+            <Grid item xs={12} md={5} sx={{marginTop:"55px"}}>
               <Box>
                 <Typography sx={{ color: 'white', fontSize: "21px", fontWeight: 300, lineHeight: "34.36px",marginBottom:"32px" }}>
                   porro ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet, 
